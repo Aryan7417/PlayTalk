@@ -1,0 +1,10 @@
+{
+  "description": "Connect with friends through private chats while discovering and sharing YouTube videos and playlists, all in a sleek, modern interface.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
