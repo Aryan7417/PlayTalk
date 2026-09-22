@@ -477,6 +477,32 @@ const PersonPlusIcon = ({
   </Svg>
 );
 
+export const PlusIconSolid = ({
+  size = 24,
+  color = "#FFFFFF",
+}: IconProps) => (
+  <Svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+  >
+    <Path
+      d="M12 5V19"
+      stroke={color}
+      strokeWidth={3}
+      strokeLinecap="round"
+    />
+
+    <Path
+      d="M5 12H19"
+      stroke={color}
+      strokeWidth={3}
+      strokeLinecap="round"
+    />
+  </Svg>
+);
+
 const WifiOffIcon = ({
   size = 24,
   color = "#000",

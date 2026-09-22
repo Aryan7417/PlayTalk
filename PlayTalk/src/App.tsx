@@ -1,13 +1,13 @@
-import React, { useCallback, useState } from "react";
-import { View, StyleSheet } from "react-native";
+ import React, { useCallback, useState } from "react";
+ import { View, StyleSheet } from "react-native";
 
-import type { Screen, TabScreen, NavState } from "./types";
+ import type { Screen, TabScreen, NavState } from "./types";
 
-import BottomNav from "./components/BottomNav";
-import SplashScreen from "./screens/SearchScreen";
-import LoginScreen from "./screens/LoginScreen";
-import SignupScreen from "./screens/SignupScreen";
-import HomeScreen from "./screens/HomeScreen";
+ import BottomNav from "./components/BottomNav";
+ import SplashScreen from "./screens/SplashScreen";
+ import LoginScreen from "./screens/LoginScreen";
+ import SignupScreen from "./screens/SignupScreen";
+ import HomeScreen from "./screens/HomeScreen";
 import AddContentScreen from "./screens/AddContentScreen";
 import VideoDetailsScreen from "./screens/VideoDetailsScreen";
 import PlaylistDetailsScreen from "./screens/PlaylistDetailsScreen";
@@ -212,3 +212,5 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(255,255,255,0.2)",
   },
 });
+
+
